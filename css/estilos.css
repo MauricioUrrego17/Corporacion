@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu a:hover {
+    color: rgb(21, 127, 214);
+}
+
+#img {
+    border-radius: 70px;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#hideTextBtn {
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.separador {
+    padding-bottom: 50px;
+}
+
+
+.mapa {
+    background: url(/img/mapa.png);
+    width: 100%;
+    height: 500px;
+    padding: 150px;
+    flex-wrap: nowrap;
+}
+
+#local {
+    width: 100%;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+#numeros-local div{
+    padding: 0 10px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(:last-child){
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child){
+    padding-left: 20px;
+}
+
+#numeros-local p {
+    margin: 0;
+}
+
+#imagen{
+    width: 150px;
+    height: 100px;
+}
+
+/** DIMENSIONES **/
+@media(max-width: 1200px){
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}

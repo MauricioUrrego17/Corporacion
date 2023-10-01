@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Mauricio Urrego Ospina">
+    <meta name="author" content="Mauricio Urrego Ospina">
+    <title>Contacto</title>
+    <link rel="icon" href="img/logoCor.ico"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+<body>
+    
+     <!--MENU  -->
+     <nav class="navbar navbar-expand-lg bg-light p-2" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><span class="text-primary fs-5 fw-bold">Corporacion Omnipresente</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actividad.html">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contacto.html">Contactanos</a>
+            </li>
+          </ul>         
+          <a class="navbar-brand" href="#">
+              <img src="img/logoCor.png" alt="Bootstrap" width="150" height="50" id="img">
+            </a>
+        </div>
+      </div>
+    </nav>
+
+      <!--FORMULARIO DE CONTACTO  -->
+      <div class="form-area">
+        <div class="container">
+          <div class="row single-form g-0">
+            <div class="col-sm-12 col-lg-6">
+              <div class="left">
+                <h2><span>Contactanos</span> <br>Estamos a tu disposicion.</h2>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="right">
+                <form action="https://formsubmit.co/emailcorporacion@gmail.com" method="post">
+                  <div class="mb-3">
+                    <label for="Nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Correo" class="form-label">Correo Electronico:</label>
+                    <input type="email" class="form-control" id="Correo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="Mensaje"></textarea required>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <input type="hidden" name="_next" value="host">
+                  <input type="hidden" name="_captcha" value="false">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER  -->
+    <footer class="bg-light pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+
+           <!--LOGO  -->
+           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Omnipresente</h5>
+            <hr class="mb-4">
+            <img src="img/logoCor.png" width="250" height="130" alt="">
+          </div>   
+
+            <!--REDES SOCIALES  -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Redes Sociales</h5>
+              <hr class="mb-4">
+              <a href="https://www.facebook.com/profile.php?id=100058947954546" target="_blank">
+              <p>
+                <li class="fab fa-facebook me-3"></li><span class="text-dark">Omnipresente Barrio Pedregal</span>
+              </p></a>
+              <p>
+                <li class="fas fa-envelope me-3"></li>corporacion@gmail.com
+              </p>
+            </div>   
+
+           <!--CONTACTO  -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+            <hr class="mb-4">
+            <p>
+              <li class="fas fa-home me-3"></li>Calle 104A # 74A 38 Barrio Pedregal, Medellin.
+            </p>
+            <p>
+              <li class="fas fa-mobile me-3"></li>+57 311 319 4723
+            </p>
+            <p>
+              <li class="fas fa-mobile me-3"></li>+57 311 303 0842
+            </p>
+          </div>   
+
+          <hr class="mb-4">
+
+          <div class="text-center mb-2">
+            <p>
+              @Copyright Todos los Derechos Reservados
+              <a href="https://mauriciourrego17.github.io/Portafolio/" target="_blank">
+                <strong class="text-primary">Mauricio Urrego</strong>
+              </a>
+            </p>
+          </div>
+
+          <div class="text-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/profile.php?id=100058947954546" target="_blank" class="text-dark"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"><i class="fab fa-telegram"></i></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
